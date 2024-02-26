@@ -196,27 +196,27 @@
                                 <div class="d-flex align-items-center gap-3">
                                     <div class="mb-3 flex-grow-1">
                                         <label class="form-label" for="basic-default-firstname">Full Name</label>
-                                        <input type="text" class="form-control" id="basic-default-firstname" />
+                                        <input type="text" class="form-control" name="name" id="basic-default-firstname" required/>
                                     </div>
                                     <div class="mb-3 flex-grow-1">
                                         <label class="form-label" for="basic-default-lastname">Last Name</label>
-                                        <input type="text" class="form-control" id="basic-default-lastname" />
+                                        <input type="text" class="form-control" name="Last Name" id="basic-default-lastname" required />
                                     </div>
                                 </div>
                                 <div class="d-flex flex-grow-1 mb-3 gap-3">
                                     <div class="mb-3 flex-grow-1">
                                         <label class="form-label" for="basic-default-email">Email</label>
-                                        <input type="text" id="basic-default-email" class="form-control" aria-label="john.doe" aria-describedby="basic-default-email2" />
+                                        <input type="text" id="basic-default-email" name="email" class="form-control" aria-label="john.doe" aria-describedby="basic-default-email2" required />
                                     </div>
                                     <div class="mb-3 flex-grow-1">
                                         <label class="form-label" for="basic-default-phone">Phone No</label>
-                                        <input type="text" id="basic-default-phone" class="form-control phone-mask" />
+                                        <input type="text" id="basic-default-phone" name="phone" class="form-control phone-mask" />
                                     </div>
                                 </div>
                                 <div class="mb-3">
                                     <label class="form-label" for="basic-default-message">Message</label>
-                                    <textarea id="basic-default-message" class="form-control" rows="4"
-                                        placeholder="Hi, Do you have a moment to talk?"></textarea>
+                                    <textarea id="basic-default-message" class="form-control" rows="4" name="comments, questions"
+                                        placeholder="Hi, Do you have a moment to talk?" required></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-primary rounded-pill">Submit Now</button>
                             </form>
